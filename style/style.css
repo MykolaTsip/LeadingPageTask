@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  font-family: Gilroy;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-family: Gilroy;
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  filter: blur(5px); }
+  .header .backgraund {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: 0.3; }
+  .header p, .header i {
+    margin-right: 20px; }
+  .header .icon {
+    margin-left: 40px; }
+  .header img {
+    position: absolute;
+    right: 0; }
+
+.contact {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  display: flex; }
+  .contact .number {
+    display: flex;
+    margin-left: 50%; }
+
+.nav {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .nav .logo b {
+    font-size: 24px;
+    color: #FF9900; }
+  .nav .wrapper {
+    font-size: 18px; }
+  .nav .callback {
+    margin-bottom: 5px;
+    padding-top: 5px; }
+    .nav .callback a {
+      padding: 5px 30px;
+      color: #FF9900;
+      border: 2px #FF9900 solid;
+      font-size: 16px; }
+
+.content {
+  position: relative;
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .content h1 {
+    font-size: 40px; }
+  .content p {
+    margin-top: 80px; }
+  .content a {
+    padding: 10px 15px;
+    background-color: #FF9900;
+    color: white; }
+
+.promise {
+  padding: 50px 0;
+  margin-top: 140px;
+  background-color: silver;
+  opacity: 0.2;
+  position: relative;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around; }
+
+/*# sourceMappingURL=style.css.map */
